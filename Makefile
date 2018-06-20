@@ -1,4 +1,4 @@
-all : fifth.c
-	gcc -Wall -Werror -fsanitize=address -o fifth fifth.c
+all : magic.c
+	gcc -Wall -Werror -fsanitize=address -o magic magic.c
 clean :
-	rm -rf fifth
+	rm -rf magic
